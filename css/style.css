@@ -200,3 +200,14 @@ ul.navbar-language :not(li:last-child) a {
   text-align: center;
   color: white;
 }
+
+@media screen  and (max-width:992px) {
+  #app .primoblocco {
+    background-size: 30%;
+  }
+
+  #app .secondoblocco .testo {
+    margin-top: 80px;
+  }
+
+}
