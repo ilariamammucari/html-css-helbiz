@@ -171,8 +171,13 @@ ul.navbar-language :not(li:last-child) a {
 /* sezione 4 */
 #app .primoblocco {
   background-color: #3b4f61;
+  background-image: url('../img/iphone-bg.2dae1bd.png');
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: bottom;
   color: white;
   text-align: center;
+  height: 500px;
 }
 
 #app h3,
@@ -188,6 +193,7 @@ ul.navbar-language :not(li:last-child) a {
   background-image: url('../img/city.7c8c928.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  height: 500px;
 }
 
 #app .secondoblocco .testo {
