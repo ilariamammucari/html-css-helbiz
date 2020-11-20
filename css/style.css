@@ -75,12 +75,57 @@ ul.navbar-language :not(li:last-child) a {
     font-size: 26px;
   }
 }
+/* /header */
 
-
+/* section 1 */
 #prodotti img {
   height: 350px;
 }
 
 #prodotti .quadrato {
   background-color: #fafafa;
+}
+/* /section 1 */
+
+/* section 2 */
+#steps {
+  background-image: url('../img/index-banner.1f6fd0a.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+#steps h2 {
+  padding-right: 150px;
+  font-size: 30px;
+  margin: 600px 0 0;
+}
+
+#steps img {
+  height: 500px;
+  margin-top: 250px;
+}
+
+#steps h4 {
+  margin-top: 600px;
+}
+
+@media screen  and (max-width:992px) {
+  #steps h2 {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  #steps h2 {
+    margin-top: 250px;
+    padding-right: 50px;
+  }
+
+  #steps h4,
+  #steps small {
+    margin-top: 250px;
+  }
+
 }
