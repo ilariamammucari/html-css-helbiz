@@ -58,10 +58,27 @@
 .m-10 {
   margin: 10px;
 }
+
 .mr-10 {
   margin-right: 10px;
 }
 
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mtb-30 {
+  margin: 30px 0;
+}
+
+/* padding */
+.p-tb30 {
+  padding: 30px 0;
+}
+
+.plr-10 {
+  padding: 0 10px;
+}
 /* framework colonne*/
 .col-lg-1 {
   width: calc(100% / 12 * 1);

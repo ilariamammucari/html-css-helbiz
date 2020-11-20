@@ -75,3 +75,12 @@ ul.navbar-language :not(li:last-child) a {
     font-size: 26px;
   }
 }
+
+
+#prodotti img {
+  height: 350px;
+}
+
+#prodotti .quadrato {
+  background-color: #fafafa;
+}
