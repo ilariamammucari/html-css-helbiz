@@ -169,7 +169,7 @@ ul.navbar-language :not(li:last-child) a {
 }
 
 /* sezione 4 */
-#app .primoblocco {
+#app .primoblocco .sfondo {
   background-color: #3b4f61;
   background-image: url('../img/iphone-bg.2dae1bd.png');
   background-repeat: no-repeat;
@@ -189,7 +189,7 @@ ul.navbar-language :not(li:last-child) a {
   margin-top: 40px;
 }
 
-#app .secondoblocco {
+#app .secondoblocco .sfondo {
   background-image: url('../img/city.7c8c928.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -210,4 +210,13 @@ ul.navbar-language :not(li:last-child) a {
     margin-top: 80px;
   }
 
+}
+
+#family {
+  background-image: url('../img/mosaico.jpeg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  margin-bottom: 30px;
 }
