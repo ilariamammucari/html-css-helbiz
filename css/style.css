@@ -177,7 +177,7 @@ ul.navbar-language :not(li:last-child) a {
   background-position: bottom;
   color: white;
   text-align: center;
-  height: 500px;
+  height: 600px;
 }
 
 #app h3,
@@ -193,7 +193,7 @@ ul.navbar-language :not(li:last-child) a {
   background-image: url('../img/city.7c8c928.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 #app .secondoblocco .testo {
@@ -212,6 +212,7 @@ ul.navbar-language :not(li:last-child) a {
 
 }
 
+/* sezione 5 */
 #family {
   background-image: url('../img/mosaico.jpeg');
   height: 500px;
@@ -219,4 +220,54 @@ ul.navbar-language :not(li:last-child) a {
   background-size: 100%;
   background-position: center;
   margin-bottom: 30px;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer .container {
+  padding-top: 50px;
+}
+
+footer .row h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+footer .lista-footer li,
+footer .lista-footer a {
+  color: white;
+  line-height: 2;
+}
+
+footer .lista-footer li:first-child {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer hr {
+  margin-top: 40px;
+}
+
+footer .row .lista-social {
+  margin-top: 40px;
+
+}
+
+footer .row .lista-social a {
+  color: white;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+footer .row p {
+  margin-top: 40px;
+}
+
+footer .row .footer-bottoni {
+  margin: 30px 0 50px;
 }
